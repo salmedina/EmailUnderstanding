@@ -76,11 +76,44 @@ class EnronDB:
         sel_stmt = select([email_table.c.date, email_table.c.mime_type, \
                            email_table.c.from_addr, email_table.c.to_addr, \
                            email_table.c.subject, email_table.c.body, \
-                           email_table.c.path, email_table.c.label]).where(email_table.c.id == email_id)
-        rp = self.engine.execute(sel_stmt)        
+                           email_table.c.path, email_table.c.label]).where(email_table.c.from_addrr == from_addr)
+        rp = self.engine.execute(sel_stmt)
+        email_list = []
+        for record in rp:
+            email = Email()
+            email.date = record.date
+            email.mime_type = record.mime_type
+            email.from_addr = record.from_addr
+            email.to_addr = record.to_addr
+            email.subject = record.subject
+            email.body = record.body
+            email.path = record.path
+            email.label = record.label 
+            email_list.append(email)
+            
+        return email_list
     
-    def get_emails_before(self, date):
-        pass
+    def get_emails_before(self, query_date):
+        email_table = Table('raw_email', self.metadata)
+        sel_stmt = select([email_table.c.date, email_table.c.mime_type, \
+                           email_table.c.from_addr, email_table.c.to_addr, \
+                           email_table.c.subject, email_table.c.body, \
+                           email_table.c.path, email_table.c.label]).where(email_table.c.date <= query_date)
+        rp = self.engine.execute(sel_stmt)
+        email_list = []
+        for record in rp:
+            email = Email()
+            email.date = record.date
+            email.mime_type = record.mime_type
+            email.from_addr = record.from_addr
+            email.to_addr = record.to_addr
+            email.subject = record.subject
+            email.body = record.body
+            email.path = record.path
+            email.label = record.label 
+            email_list.append(email)
+            
+        return email_list        
         
     # EMAIL_ADDRESS table
     def insert_address(self, email_address):
@@ -94,4 +127,28 @@ class EnronDB:
         result = conn.execute(ins_stmt, address = email_address.address,
                               name = email_address.name)
     
-    # thread table
+    def get_address(self, address_id):
+        email_address_table = Table('email_address', self.metadata)
+        sel_stmt = select([email_address_table.c.name, email_address_table.c.address]).where(email_address_table.c.id == address_id)
+        rp = self.engine.execute(sel_stmt)
+        record = rp.first()
+        email_address = EmailAddress()
+        if record is not None:
+            email_address.name = record.name
+            email_address.address = record.address
+        
+        return email_address
+    
+    def get_address_name(self, email_address):
+            email_address_table = Table('email_address', self.metadata)
+            sel_stmt = select([email_address_table.c.name, email_address_table.c.address]).where(email_address_table.c.id == address_id)
+            rp = self.engine.execute(sel_stmt)
+            record = rp.first()
+            email_address = EmailAddress()
+            if record is not None:
+                email_address.name = record.name
+                email_address.address = record.address
+            
+            return email_address    
+    
+    # THREAD table
