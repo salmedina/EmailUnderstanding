@@ -141,7 +141,7 @@ class EnronDB:
     
     def get_address_name(self, email_address):
             email_address_table = Table('email_address', self.metadata)
-            sel_stmt = select([email_address_table.c.name, email_address_table.c.address]).where(email_address_table.c.id == address_id)
+            sel_stmt = select([email_address_table.c.name]).where(email_address_table.c.id == address_id)
             rp = self.engine.execute(sel_stmt)
             record = rp.first()
             email_address = EmailAddress()
