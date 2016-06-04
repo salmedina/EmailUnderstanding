@@ -1,0 +1,1 @@
+create table raw_email (date DATETIME, mime_type VARCHAR(50), from_addr VARCHAR(50), to_addr TEXT, subject VARCHAR(255), body TEXT, path VARCHAR(255), label VARCHAR(20));

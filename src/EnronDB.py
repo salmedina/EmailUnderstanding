@@ -1,5 +1,10 @@
+import email
 import sys
-import sqlalchemy
+
+from sqlalchemy.engine import create_engine
+from sqlalchemy.sql import select
+from sqlalchemy.sql.schema import Table, MetaData
+
 
 class Email:
     def __init__(self):
@@ -20,10 +25,10 @@ class EmailAddress:
 class EnronDB:
     def __init__(self):
         self.engine = None
-        self.metadata = ()
+        self.metadata = MetaData()
         
     def init(self, host, username, password, db_name):
-        engine_desc = 'mysql://%s:%s@%s/%s'%(username, password, host, db_name)
+        engine_desc = 'mysql://%s:%s@%s/%s' % (username, password, host, db_name)
         try:
             self.engine = create_engine(engine_desc)
             self.metadata.reflect(self.engine)
@@ -34,22 +39,32 @@ class EnronDB:
     
     # RAW_EMAIL table
     def insert_email(self, email):
-        if type(email) != Email:
+        if not isinstance(email, Email):
             print 'ERROR: input must be of type Email'
             return
         
         email_table = Table('raw_email', self.metadata)
         ins_stmt = email_table.insert()
         conn = self.engine.connect()
-        result = conn.execute(ins_stmt, date = email.date,
-                              mime_type = email.mime_type,
-                              from_addr = email.from_addr,
-                              to_addr = email.to_addr,
-                              subject = email.subject,
-                              body = email.body,
-                              path = email.path,
-                              label = email.label)
+        result = conn.execute(ins_stmt, date=email.date,
+                              mime_type=email.mime_type,
+                              from_addr=email.from_addr,
+                              to_addr=email.to_addr,
+                              subject=email.subject,
+                              body=email.body,
+                              path=email.path,
+                              label=email.label)
     
+    def get_all_content(self):
+        email_table = Table('raw_email', self.metadata)
+        sel_stmt = select([email_table.c.subject, email_table.c.body])
+        rp = self.engine.execute(sel_stmt)
+        all_content = ""
+        for record in rp:
+            all_content += record.subject
+            all_content += record.body
+        return all_content
+
     def get_email(self, email_id):
         email_table = Table('raw_email', self.metadata)
         sel_stmt = select([email_table.c.date, email_table.c.mime_type, \
@@ -124,8 +139,8 @@ class EnronDB:
         email_address_table = Table('email_address', self.metadata)
         ins_stmt = email_address_table.insert()
         conn = self.engine.connect()
-        result = conn.execute(ins_stmt, address = email_address.address,
-                              name = email_address.name)
+        result = conn.execute(ins_stmt, address=email_address.address,
+                              name=email_address.name)
     
     def get_address(self, address_id):
         email_address_table = Table('email_address', self.metadata)
@@ -139,7 +154,7 @@ class EnronDB:
         
         return email_address
     
-    def get_address_name(self, email_address):
+    def get_address_name(self, address_id):
             email_address_table = Table('email_address', self.metadata)
             sel_stmt = select([email_address_table.c.name]).where(email_address_table.c.id == address_id)
             rp = self.engine.execute(sel_stmt)

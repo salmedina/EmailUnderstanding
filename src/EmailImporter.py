@@ -1,61 +1,42 @@
+import datetime
 import email
-import flanker
-import talon
-import sqlalchemy
-import ConfigParser
-import EnronDB
+from email.utils import parsedate
+import os
+import time
 
+from DBUtil import initDB
+from EnronDB import Email
+
+
+mail_root = "/Users/zhongzhu/Documents/code/EmailUnderstanding/data/"
+
+# import flanker
+# import talon
 def import_mails(mail_dir, db):
     # Traverse through all directories recursively
-    
-    # When no more subdirs...
-    # For each file
-    # Parse the email 
-    # save the email in the DB
-    # DB fields:
-    #     - Datetime
-    #     - From
-    #     - To
-    #     - Subject
-    #     - Type
-    #     - Body
-    #     - file_path: relative path from source
-    pass
+    for dirpath, dirnames, filenames in os.walk(mail_dir):
+        for dirname in dirnames:
+            import_mails(os.path.abspath(os.path.join(dirpath, dirname)), db)
+        for filename in filenames:
+            if filename == ".DS_Store":
+                continue
+            filepath = os.path.abspath(os.path.join(dirpath, filename))
+            with open(filepath) as f:
+                print(filepath)
+                raw_email = email.message_from_file(f)
+                e = Email()
+                if raw_email['Date']:
+                    e.date = datetime.datetime.fromtimestamp(time.mktime(parsedate(raw_email['Date'])))
+                e.mime_type = raw_email['Content-Type']
+                e.from_addr = raw_email['From']
+                e.to_addr = raw_email['To']
+                e.subject = raw_email['Subject']
+                e.body = raw_email.get_payload()
+                e.path = filepath[len(mail_root):]
+            db.insert_email(e)
 
-def build_init_file(filename):
-    ''' Builds the empty config file for the importer '''
-    config = ConfigParser.ConfigParser()
-    config.add_section('Database')
-    
-    config.set('Database', 'ip', '')
-    config.set('Database', 'username', '')
-    config.set('Database', 'password', '')
-    config.set('Database', 'name', '')
-    
-    config.write(open(filename, 'w'))        
-    return config    
-
-def load_init_file(init_filename):
-    ''' Loads the initfile that has the same name as the script, if not found -> generates an empty one '''
-    config = ConfigParser.ConfigParser()
-    
-    if os.path.isfile(init_filename):    
-        config.read(init_filename)
-    else:
-        config = build_init_file(init_filename)
-    
-    return config
-
-if __name__=='__main__':
-    # Load config file
-    cfg = load_init_file('emailimporter.ini')
-    
-    # Initialize db object
-    enron_db = EnronDB()
-    enron_db.init(cfg.get('Database', 'ip'),
-                  cfg.get('Database', 'username'),
-                  cfg.get('Database', 'password'),
-                  cfg.get('Database', 'name'),)
+if __name__ == '__main__':
+    enron_db = initDB()
     
     # Import the final mails into db
-    import_mails(mail_dir, enron_db)
+    import_mails(mail_root, enron_db)

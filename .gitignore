@@ -1,0 +1,8 @@
+
+*.pyc
+
+src/emailimporter.ini
+
+.pydevproject
+
+.project
