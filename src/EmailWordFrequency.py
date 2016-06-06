@@ -15,7 +15,6 @@ def get_top_words(num, doc):
     total_count = 0
     for word in doc.split():
         word = word.lower()
-#         word = lemmatizer.lemmatize(word)
         if not word.isalnum():
             continue
         if word not in word_freq:
@@ -24,8 +23,8 @@ def get_top_words(num, doc):
         word_freq[word] += 1
         total_count += 1
     sorted_word_freq = sorted(word_freq.items(), key=operator.itemgetter(1), reverse=True)
-#     return sorted_word_freq[:num]
-    return sorted_word_freq[-num:]
+    return sorted_word_freq[:num]
+#     return sorted_word_freq[-num:]
 
 def get_email_top_10000_words():
     db = initDB()
@@ -70,4 +69,4 @@ def dump_word_frequencies():
         pickle.dump(word_freq.values(), f)
 
 
-dump_word_frequencies()
+print(get_number_of_different_words())

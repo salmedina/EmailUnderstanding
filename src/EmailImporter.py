@@ -10,19 +10,14 @@ from EnronDB import Email
 
 mail_root = "/Users/zhongzhu/Documents/code/EmailUnderstanding/data/"
 
-# import flanker
-# import talon
 def import_mails(mail_dir, db):
     # Traverse through all directories recursively
-    for dirpath, dirnames, filenames in os.walk(mail_dir):
-        for dirname in dirnames:
-            import_mails(os.path.abspath(os.path.join(dirpath, dirname)), db)
+    for dirpath, _, filenames in os.walk(mail_dir):
         for filename in filenames:
-            if filename == ".DS_Store":
+            if filename in [".DS_Store", ".gitignore"]:
                 continue
             filepath = os.path.abspath(os.path.join(dirpath, filename))
             with open(filepath) as f:
-                print(filepath)
                 raw_email = email.message_from_file(f)
                 e = Email()
                 if raw_email['Date']:
