@@ -61,9 +61,18 @@ class EnronDB:
         rp = self.engine.execute(sel_stmt)
         all_content = ""
         for record in rp:
-            all_content += record.subject
-            all_content += record.body
+            all_content += record.subject + " "
+            all_content += record.body + " "
         return all_content
+    
+    def get_all_dates(self):
+        email_table = Table('raw_email', self.metadata)
+        sel_stmt = select([email_table.c.date])
+        rp = self.engine.execute(sel_stmt)
+        dates = []
+        for record in rp:
+            dates.append(record.date.strftime("%y%m%d"))
+        return dates
 
     def get_email(self, email_id):
         email_table = Table('raw_email', self.metadata)
