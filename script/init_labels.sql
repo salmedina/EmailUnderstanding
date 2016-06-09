@@ -1,0 +1,14 @@
+insert into labels (id, name) values (1, "Company business, strategy, alliances etc.");
+insert into labels (id, name) values (2, "Company image, PR, press releases");
+insert into labels (id, name) values (3, "Employment arrangements (hiring etc.)");
+insert into labels (id, name) values (4, "Empty message");
+insert into labels (id, name) values (5, "IT (Information technology)");
+insert into labels (id, name) values (6, "Jokes, humour, fun");
+insert into labels (id, name) values (7, "Legal and regulatory affairs");
+insert into labels (id, name) values (8, "Logistic arrangements (meetings etc.)");
+insert into labels (id, name) values (9, "News and newsletters");
+insert into labels (id, name) values (10,"Other");
+insert into labels (id, name) values (11,"Personal, Friends, Family");
+insert into labels (id, name) values (12,"Political influence and contacts");
+insert into labels (id, name) values (13,"Project work, general collaboration");
+insert into labels (id, name) values (14,"Spam");

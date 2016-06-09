@@ -12,6 +12,8 @@ The training dataset which we will use as a startpoint is the labeled subset fro
 The relevant papers for our project can be found under the Papers folder. Among the most relevant ones we can find:
 
 
-
+## References
+http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+http://www.andreykurenkov.com/writing/organizing-my-emails-with-a-neural-net/
 
 

@@ -2,17 +2,21 @@ import datetime
 import email
 from email.utils import parsedate
 import os
+import re
 import time
 
 from DBUtil import initDB
 from EnronDB import Email
 
 
-mail_root = "/Users/zhongzhu/Documents/code/EmailUnderstanding/data/"
+mail_root = "/Users/zhongzhu/Documents/code/EmailUnderstanding/data/Emails_with_label"
 
 def import_mails(mail_dir, db):
     # Traverse through all directories recursively
     for dirpath, _, filenames in os.walk(mail_dir):
+        match = re.search(r"Emails_with_label/(?P<label>\d+)/", dirpath)
+        if match:
+            label = match.group("label")
         for filename in filenames:
             if filename in [".DS_Store", ".gitignore"]:
                 continue
@@ -28,6 +32,7 @@ def import_mails(mail_dir, db):
                 e.subject = raw_email['Subject']
                 e.body = raw_email.get_payload()
                 e.path = filepath[len(mail_root):]
+                e.label = int(label)
             db.insert_email(e)
 
 if __name__ == '__main__':
