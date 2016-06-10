@@ -39,11 +39,18 @@ class EnronDB:
     
     # RAW_EMAIL table
     def insert_email(self, email):
+        self.insert_to_table(email, "raw_email")
+    
+    # RAW_EMAIL table
+    def insert_cleaned_email(self, email):
+        self.insert_to_table(email, "cleaned_email")
+
+    def insert_to_table(self, email, table_name):
         if not isinstance(email, Email):
             print 'ERROR: input must be of type Email'
             return
         
-        email_table = Table('raw_email', self.metadata)
+        email_table = Table(table_name, self.metadata)
         ins_stmt = email_table.insert()
         conn = self.engine.connect()
         result = conn.execute(ins_stmt, date=email.date,

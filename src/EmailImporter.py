@@ -6,6 +6,7 @@ import re
 import time
 
 from DBUtil import initDB
+from EmailContentCleaner import clean
 from EnronDB import Email
 
 
@@ -30,10 +31,10 @@ def import_mails(mail_dir, db):
                 e.from_addr = raw_email['From']
                 e.to_addr = raw_email['To']
                 e.subject = raw_email['Subject']
-                e.body = raw_email.get_payload()
+                e.body = clean(raw_email.get_payload())
                 e.path = filepath[len(mail_root):]
                 e.label = int(label)
-            db.insert_email(e)
+            db.insert_cleaned_email(e)
 
 if __name__ == '__main__':
     enron_db = initDB()
