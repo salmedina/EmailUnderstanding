@@ -1,0 +1,19 @@
+DATES: October | 17 | , | 2001 | 
+Dear Market Participants
+
+On October 17, 2001, the NYISO web servers will be upgraded.  This will
+require both software and hardware changes.  While these changes will be
+transparent to the users, these changes will require that the MIS system
+
+HAM transactions or modifying Day Ahead bids should act accordingly.
+
+The NYISO will minimize the duration of the outage as much as possible
+
+these changes will result in a more stable environment and provide enhanced
+services that the current web servers are unable to perform.
+
+If you have any questions, please call your Customer Relations
+Representative or the Help Desk at (518) 356-6060.
+
+Thank You
+Customer Relations

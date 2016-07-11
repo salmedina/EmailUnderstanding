@@ -1,0 +1,20 @@
+DATES: August | 21 | , | 2000 | 
+We have received an executed financial Master Agreement:
+
+Type of Contract:  ISDA Master Agreement (Multicurrency-Cross Border)
+
+Effective Date:   August 21, 2000
+
+Enron Entity:   Enron North America Corp.
+
+Counterparty:   Entrada Energy Ventures, L.L.C.
+
+Transactions Covered:  Approved for all products with the exception of: 
+Foreign Exchange
+
+Confirming Entity:  Enron North America Corp.
+
+Choice of Law:  TEXAS
+
+Special Note:  ENA owns 50 % of the voting outstanding equity of Entrada 
+Ventures, L.L.C.

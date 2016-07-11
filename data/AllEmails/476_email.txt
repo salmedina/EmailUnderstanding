@@ -1,0 +1,60 @@
+DATES: 1 | 
+Dan Watkiss argues that FERC has no authority to override the state, even 
+though the rules go far beyond what is critical or necessary. 
+
+Per Christi's thoughts, we may want to gauge Congressional interest in 
+pushing something as an add-on to EPAct '92 that allows only safety / public 
+interest reasons for an EWG to be restricted in its siting by a State.
+
+Jim
+
+I talked with Dan briefly about this to verify my conclusion that FERC would 
+not get involved at this point.  The Florida issue seems similar to 
+California (or any other state that has idiosyncratic siting issues) in that 
+FERC has encouraged California to speed the siting of generation, but has not 
+ordered it.  What I am not sure about is whether the possible DOE or 
+Congressional emergency electricity legislation that Jim sent out yesterday 
+(on demand side management payments) could also include language that would 
+allow the federal government to override the certain state generation siting 
+issues, such as the Florida law.
+
+Christi, the Florida certificate process controls siting and licensing of 
+generators.  Both are topics over which FERC has no authority.   
+Consequently, FERC would have no authority to override the state.
+
+Christi:
+
+Does FERC have the authority to act per question no. 2?  Please advise.
+
+MR
+
+Marchris --
+
+Some things on follow-up from Ken Lay's call with Jeb Bush (could you have
+answers by End of Week) -
+
+1.   What is the process post the FL Supreme Court decision.  Did anyone
+appeal to the Federal Courts?  Outcome of that action, if taken?
+
+2.   Is it possible for the FERC to simply act to waive the CCN need?  Did
+we ever discuss with FERC counsel the ability for that agency to "override"
+the CCN for any filing EWG?  What would they need to do?  Would FERC need
+to take on the FPSC or Fla Supreme Court?  A state should have the right to
+worry about safety and reliability, but not interfere with wholesale
+competition.
+
+3.   Have we calculated a "back of the envelope" $ value for the margin the
+Utilities (FPL, TECO, FPC) will obtain by transferring generation at book?
+I would think that nuke should be at book (this is a gimme) with the fossil
+analyzed as the difference between average book ($/kw) and market value
+($/kw - see Ben Jacoby).  What is the total $?
+
+My understanding is that Steve Kean is heading into Florida to meet with
+Sect of Environment next week.  We need to try and get a read from the
+Utilities on how much $ would they be willing to give back in rate
+decreases as a Generation Stranded Benefit to see this deal through before
+the meeting.
+
+Thanks,
+
+Jim

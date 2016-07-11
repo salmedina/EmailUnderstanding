@@ -1,0 +1,19 @@
+DATES: December | 14 | 
+Attention Business Objects Users:
+
+Please read the following for information regarding the upgrade of Business Objects.
+
+Summary
+
+InfoSource Users
+There will be no changes for InfoSource users.  You will still connect using WEBLINK
+
+ZABO Users
+Starting on December 14 all ZABO users will need to have the newest version installed.  There is an automated process to install the new version.  You will have to go to Start>Programs>Business Applications>ZABO ETS.  Clicking on the ZABO ETS icon will begin the install process.  
+
+Business Query Users
+Currently Business Query will have to be installed locally on each PC.  Someone will be contacting you to arrange the installation.
+
+Thank you,
+Lori Saffer
+713-853-0641

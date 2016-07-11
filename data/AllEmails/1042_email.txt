@@ -1,0 +1,21 @@
+DATES: March | 1 | , | 2001 | December | 2000 | March | 1 | , | 2001 | 3999 | 
+Please see the below correction to the 4/23/01 Market Notification
+pertaining to Charge Type 3999 (Interest and Penalty Charge on unpaid
+balances).
+
+Effective Trade Date March 1, 2001, the ISO will implement a new Charge
+Type, CT3999, to account for the Interest and Penalty Charges on unpaid
+balances.  Since December 2000,the ISO has been allocating interest and
+penalties to CT 1010.  All future charges, beginning with Trade Date March
+1, 2001, will be reflected in Charge Type 3999.  Interest and Penalty
+Charges will be made through manual adjustment (Type A) records and will
+be based on the current interest rate plus 2% penalty (annual interest
+rate compounded daily).  This is a monthly charge and will be posted to
+the last trade date of the month.
+
+Effective on the Preliminary Statement for trade date 3/1/01:
+
+This notice is intended to inform participants as early as possible of the
+new charge type.
+
+Client Relations Communication

@@ -21,17 +21,16 @@ st = StanfordNERTagger(model_filename='/Users/zhongzhu/Documents/code/lib/stanfo
 db = DBUtil.initDB()
 emails = db.get_all_brushed_emails()
 
-logistic_emails = [e for e in emails if e.label == 8]
-print(len(logistic_emails))
+print(len(emails))
 
 scheduling_emails = []
-for email in logistic_emails:
+for email in emails:
     tags = st.tag(word_tokenize(email.body))
     date_tags = [t for t in tags if t[1] == 'DATE']
     if len(date_tags):
         print(email.id, email.path)
         scheduling_emails.append(email)
-        with open("../data/SelectedEmails/" + str(email.id) + "_email.txt", "w+") as f:
+        with open("../data/AllEmails/" + str(email.id) + "_email.txt", "w+") as f:
             header = "DATES: "
             for tag in date_tags:
                 header += tag[0] + " | "
