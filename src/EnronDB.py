@@ -118,7 +118,7 @@ class EnronDB:
         email_table = Table('brushed_email', self.metadata)
         sel_stmt = select([email_table.c.id, email_table.c.date, email_table.c.mime_type, \
                            email_table.c.from_addr, email_table.c.to_adddr, \
-                           email_table.c.subject, email_table.c.body, \
+                           email_table.c.subject, email_table.c.body, email_table.c.one_line,\
                            email_table.c.path, email_table.c.label])
         rp = self.engine.execute(sel_stmt)
         emails = []
@@ -132,6 +132,7 @@ class EnronDB:
                 email.to_addr = record.to_adddr
                 email.subject = record.subject
                 email.body = record.body
+                email.one_line = record.one_line
                 email.path = record.path
                 email.label = record.label
             emails.append(email)
