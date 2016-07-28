@@ -95,16 +95,22 @@ class EnronDB:
         conn = self.engine.connect()
         for record in rp:
 #             print(record)
-            p = "\/[^\/]*\/([^\/]+)" # match the content between the second / and the third /
+            p = "\/[^\/]*\/([^\/]+)"  # match the content between the second / and the third /
             match = re.match(p, record.path)
             if match:
                 username = match.group(1)
-                stmt = email_table.update().where(email_table.c.id==record.id).values(username=username)
+                stmt = email_table.update().where(email_table.c.id == record.id).values(username=username)
                 conn.execute(stmt)
             else:
                 print("Error! " + record.path)
                 exit(0)
     
+    def update_brushed_email_is_scheduling(self, email_id, is_scheduling):
+        email_table = Table('brushed_email', self.metadata)
+        conn = self.engine.connect()
+        stmt = email_table.update().where(email_table.c.id == email_id).values(is_scheduling=is_scheduling)
+        conn.execute(stmt)
+
     def get_all_dates(self):
         email_table = Table('raw_email', self.metadata)
         sel_stmt = select([email_table.c.date])
@@ -118,8 +124,8 @@ class EnronDB:
         email_table = Table('brushed_email', self.metadata)
         sel_stmt = select([email_table.c.id, email_table.c.date, email_table.c.mime_type, \
                            email_table.c.from_addr, email_table.c.to_adddr, \
-                           email_table.c.subject, email_table.c.body, email_table.c.one_line,\
-                           email_table.c.path, email_table.c.label])
+                           email_table.c.subject, email_table.c.body, email_table.c.one_line, \
+                           email_table.c.path, email_table.c.label, email_table.c.is_scheduling])
         rp = self.engine.execute(sel_stmt)
         emails = []
         for record in rp:
@@ -135,6 +141,7 @@ class EnronDB:
                 email.one_line = record.one_line
                 email.path = record.path
                 email.label = record.label
+                email.is_scheduling = record.is_scheduling or 0
             emails.append(email)
         return emails
     
@@ -143,7 +150,7 @@ class EnronDB:
         sel_stmt = select([email_table.c.date, email_table.c.mime_type, \
                            email_table.c.from_addr, email_table.c.to_adddr, \
                            email_table.c.subject, email_table.c.body, \
-                           email_table.c.path, email_table.c.label]).where(email_table.c.id == email_id)
+                           email_table.c.path, email_table.c.label, email_table.c.is_scheduling]).where(email_table.c.id == email_id)
         rp = self.engine.execute(sel_stmt)
         record = rp.first()
         email = Email()
@@ -156,6 +163,7 @@ class EnronDB:
             email.body = record.body
             email.path = record.path
             email.label = record.label
+            email.is_scheduling = record.is_scheduling
         
         return email
     
