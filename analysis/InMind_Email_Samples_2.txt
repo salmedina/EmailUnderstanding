@@ -1,0 +1,178 @@
+>>> raw data <<<
+
+	ID:				25
+	Label:			Company business, strategy, alliances etc.
+	Subject:		Meeting w/Sempra
+	Body:			
+
+FYI.  Recently, Chris Calger has asked me to set up a meeting with Sempra.  
+ENA's seeking deals with the two big CA gas IOUs (PG&E and SoCalGas) that 
+would give ENA access to their assets.  In short, ENA wants to offer a 
+complete outsource deal for the IOUs' core gas load (i.e., rez and small 
+commercial customers).  ENA would take responsibility for providing service 
+for delivery at the city gate and in return would manage all of core's assets 
+(upstream of the city gate).  We're meeting with Sempra's "Chief Regulatory 
+Office" (Bill Reed) and Sempra's CFO next Thursday to discuss.
+
+Given the fact that Sempra's primarily focused on electricity, the plan is to 
+lead off the meeting with a couple of electricity solutions as a bridge to 
+the gas offer.  For electricity, the plan has two pieces:  1) a commodity 
+offer that beats the 6.5 cent cap (i.e., nothing fancy) and 2) "Deal Bench" 
+services with the intent of establishing a procurement mechanism for SDG&E 
+that the California PUC could pre-approve (thereby eliminating some of the 
+immense regulatory risk SDG&E now faces).
+
+Wanted to run this by folks to gauge reactions.  We'll distribute the slides 
+we're putting together as soon as they're drafted--hopefully by COB Friday.
+
+Best,
+Jeff
+
+>>> summary <<<
+In short, ENA wants to offer a complete outsource deal for the IOUs' core gas load (i.e., rez and small commercial customers).
+For electricity, the plan has two pieces: 1) a commodity offer that beats the 6.5 cent cap (i.e., nothing fancy) and 2) "Deal Bench" services with the intent of establishing a procurement mechanism for SDG&E that the California PUC could pre-approve (thereby eliminating some of the immense regulatory risk SDG&E now faces).
+We'll distribute the slides we're putting together as soon as they're drafted--hopefully by COB Friday.
+Best, Jeff
+
+------------------------------------------------------------------------------------------------------
+
+>>> raw data <<<
+
+
+	ID:				252
+	Label:			Company business, strategy, alliances etc.
+	Subject:		RE: First Union National Bank ("FUNB")/Enron Corp. ISDA Master
+ Agreement
+	Body:			
+
+I think permitted transfers are those where the credit support is the same 
+(Enron Corp gty covers affiliate we transfer to).  In this case, FUNB could 
+transfer to an affiliate if they were willing to gty the obligations of the 
+affiliate (since it is the parent, in essence).
+
+Tanya:
+
+For purposes of "Transfer", shall we permit both parties to transfer to 
+Affiliates?  Would FUNB require a guaranty?  Or do we feel strongly that 
+neither party should have the ability to transfer except with the written 
+consent of the other party?
+
+Sara Shackleton
+Enron North America Corp.
+1400 Smith Street, EB 3801a
+Houston, Texas  77002
+713-853-5620 (phone)
+
+>>> summary <<<
+I think permitted transfers are those where the credit support is the same (Enron Corp gty covers affiliate we transfer to).
+Tanya:
+Would FUNB require a guaranty?
+
+
+------------------------------------------------------------------------------------------------------
+
+>>> raw data <<<
+
+
+	ID:				310
+	Label:			Company business, strategy, alliances etc.
+	Subject:		Business-Wide Cost Saving Opportunities
+	Body:			
+	
+Please review the attached memo outlining business-wide cost saving 
+opportunities.  Please forward any comments that you have to Suzanne Brown 
+via email by close of business on Wednesday, June 6th.
+
+>>> summary <<<
+Please review the attached memo outlining business-wide cost saving opportunities.
+
+------------------------------------------------------------------------------------------------------
+
+>>> raw data <<<
+
+
+	ID:				321
+	Label:			Other
+	Subject:		summary status of the comments
+	Body:			
+
+Dear Sally,
+
+Attached is the latest version of the summary.  It is complete, but I'm still 
+waiting for Scott E to let me know if anything has been done in Panama.
+
+You mentioned yesterday that you wanted the offices rated.  I have put a 
+rating in, based on the number comments, size of the office, and severity of 
+the comments, and what I understand the general attitude of the office to be, 
+but you should probably take a look at it since you attended some of these 
+reviews.
+
+Best regards
+
+Shona
+
+>>> summary <<<
+It is complete, but I'm still waiting for Scott E to let me know if anything has been done in Panama.
+You mentioned yesterday that you wanted the offices rated.
+
+------------------------------------------------------------------------------------------------------
+
+>>> raw data <<<
+
+
+	ID:				700
+	Label:			IT (Information technology)
+	Subject:		Thank You
+	Body:			
+
+Harry,
+
+Thank you for taking time last week to meet with me and for arranging the
+other meetings as well.  I enjoyed our discussion and learning about the
+various opportunities within Enron.  I have been impressed with every group
+at Enron.  I hope that we can keep in touch over the next few months.
+
+Thank you again.
+
+Sincerely,
+
+Vic
+
+Vic Gatto
+Owen Graduate School of Management
+Vanderbilt Universtiy
+(615) 292-7414
+	
+>>> summary <<<
+Harry,
+I enjoyed our discussion and learning about the various opportunities within Enron.
+Thank you again.
+
+------------------------------------------------------------------------------------------------------
+
+>>> raw data <<<
+
+
+	ID:				809
+	Label:			Legal and regulatory affairs
+	Subject:		RE: Memo regarding Enron/Dynegy Agreement and Plan of Merger -
+ Compliance with the Conduct of Business Covenants
+	Body:			
+
+With everything going on, I wanted to speak with you about some issues, particularly how things may effect my group.  In light of the attached memo, it does not seem that we can do anything that will cost the company more than $50mm.  What does this mean for what we are looking at?  Can Enron even participate in the Arctic project as a $1mm commitment will, not including the potential additional liabilities, commit the company for more than $50mm.  I guess you can make an argument about it depends upon how you count it.
+
+Anyway, please let me know when you have some time.
+
+Cheers.
+
+Sensitivity: Confidential
+	
+>>> summary <<<
+With everything going on, I wanted to speak with you about some issues, particularly how things may effect my group.
+Anyway, please let me know when you have some time.
+Cheers.
+Sensitivity: Confidential
+
+
+------------------------------------------------------------------------------------------------------
+

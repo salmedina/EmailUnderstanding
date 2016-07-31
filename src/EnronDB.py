@@ -4,6 +4,7 @@ import sys
 from sqlalchemy.engine import create_engine
 from sqlalchemy.sql import select
 from sqlalchemy.sql.schema import Table, MetaData
+from sqlalchemy import update
 
 
 class Email:
@@ -73,6 +74,40 @@ class EnronDB:
         for record in rp:
             dates.append(record.date.strftime("%y%m%d"))
         return dates
+    
+    def get_all_subjects(self):
+        email_table = Table('raw_email', self.metadata)
+        sel_stmt = select([email_table.c.subject])
+        rp = self.engine.execute(sel_stmt)
+        subjects = []
+        for record in rp:
+            subjects.append(record.subject)
+        return subjects    
+    
+    def get_all_bodies_with_id(self):
+        email_table = Table('raw_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.body])
+        rp = self.engine.execute(sel_stmt)
+        bodies = []
+        for record in rp:
+            bodies.append((record.id, record.body))
+        return bodies    
+    
+    def get_body(self, email_id):
+        email_table = Table('raw_email', self.metadata)
+        sel_stmt = select([email_table.c.body]).where(email_table.c.id == email_id)
+        rp = self.engine.execute(sel_stmt)
+        record = rp.first()
+        return record.body
+    
+    def get_all_bodies(self):
+        email_table = Table('raw_email', self.metadata)
+        sel_stmt = select([email_table.c.body])
+        rp = self.engine.execute(sel_stmt)
+        bodies = []
+        for record in rp:
+            bodies.append(record.body)
+        return bodies
 
     def get_email(self, email_id):
         email_table = Table('raw_email', self.metadata)
@@ -164,15 +199,122 @@ class EnronDB:
         return email_address
     
     def get_address_name(self, address_id):
-            email_address_table = Table('email_address', self.metadata)
-            sel_stmt = select([email_address_table.c.name]).where(email_address_table.c.id == address_id)
-            rp = self.engine.execute(sel_stmt)
-            record = rp.first()
-            email_address = EmailAddress()
-            if record is not None:
-                email_address.name = record.name
-                email_address.address = record.address
-            
-            return email_address    
+        email_address_table = Table('email_address', self.metadata)
+        sel_stmt = select([email_address_table.c.name]).where(email_address_table.c.id == address_id)
+        rp = self.engine.execute(sel_stmt)
+        record = rp.first()
+        email_address = EmailAddress()
+        if record is not None:
+            email_address.name = record.name
+            email_address.address = record.address
+        
+        return email_address    
     
-    # THREAD table
+    # BRUSHED_EMAIL table
+    def count_per_label(self, label):
+        rp = self.engine.execute('select count(label) from brushed_email where label=%d'%(label))
+        res = rp.first()
+        return long(res[0])
+    
+    def get_all_brushed_labels_with_id(self):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.label])
+        rp = self.engine.execute(sel_stmt)
+        labels = []
+        for record in rp:
+            labels.append((record.id, record.label))
+        return labels  
+    
+    def get_all_brushed_bodies_with_id(self):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.body])
+        rp = self.engine.execute(sel_stmt)
+        bodies = []
+        for record in rp:
+            bodies.append((record.id, record.body))
+        return bodies
+
+    def get_all_brushed_body_summary_with_id(self):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.subject, email_table.c.body, email_table.c.summary])
+        rp = self.engine.execute(sel_stmt)
+        bodies = []
+        for record in rp:
+            bodies.append((record.id, record.subject, record.body, record.summary))
+        return bodies
+
+    def get_all_brushed_lines_with_id(self):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.lines])
+        rp = self.engine.execute(sel_stmt)
+        lines = []
+        for record in rp:
+            lines.append((record.id, record.lines))
+        return lines
+    
+    def get_all_brushed_verbs_with_id(self):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.verbs])
+        rp = self.engine.execute(sel_stmt)
+        brushed_verbs = []
+        for record in rp:
+            brushed_verbs.append((record.id, record.verbs))
+        return brushed_verbs
+    
+    def get_all_brushed_verbs_per_label(self, label):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.verbs]).where(email_table.c.label==label)
+        rp = self.engine.execute(sel_stmt)
+        brushed_verbs = []
+        for record in rp:
+            brushed_verbs.append((record.id, record.verbs))
+        return brushed_verbs
+    
+    def get_all_one_liners_per_label(self, label):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.one_line]).where(email_table.c.label==label)
+        rp = self.engine.execute(sel_stmt)
+        one_line = []
+        for record in rp:
+            one_line.append((record.id, record.one_line))
+        return one_line    
+
+    def update_brushed_body(self,email_id, body):
+        brushed_table = Table('brushed_email', self.metadata)
+        u = update(brushed_table)
+        u = u.values(body=body)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)
+        
+    def update_brushed_lines(self,email_id, msg_lines):
+        brushed_table = Table('brushed_email', self.metadata)
+        u = update(brushed_table)
+        u = u.values(lines=msg_lines)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)
+    
+    def update_brushed_one_line(self,email_id, one_line):
+        brushed_table = Table('brushed_email', self.metadata)
+        u = update(brushed_table)
+        u = u.values(one_line=one_line)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)
+        
+    def update_brushed_verbs(self, email_id, verbs):
+        brushed_table = Table('brushed_email', self.metadata)
+        u = update(brushed_table)
+        u = u.values(verbs=verbs)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)
+        
+    def update_brushed_summary(self, email_id, summary):
+        brushed_table = Table('brushed_email', self.metadata)
+        u = update(brushed_table)
+        u = u.values(summary=summary)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)

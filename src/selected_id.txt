@@ -1,0 +1,472 @@
+===================================================================
+ID:          3
+SUBJECT:     Thank You
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Harry,
+
+Thank you for taking time last week to meet with me and for arranging the
+other meetings as well.  I enjoyed our discussion and learning about the
+various opportunities within Enron.  I have been impressed with every group
+at Enron.  I hope that we can keep in touch over the next few months.
+
+Thank you again.
+
+Sincerely,
+
+Vic
+
+Vic Gatto
+Owen Graduate School of Management
+Vanderbilt Universtiy
+(615) 292-7414
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Harry,
+I enjoyed our discussion and learning about the various opportunities within Enron.
+Thank you again.
+Sincerely,
+Vic
+Vic Gatto Owen Graduate School of Management Vanderbilt Universtiy (615) 292-7414
+
+
+===================================================================
+ID:          4
+SUBJECT:     CAISO Notice - Valley-Rainbow Transmission Project
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Market Participants:
+
+At the May ISO Governing Board meeting the Board directed
+Management to bring back to the Board a recommendation on the "parameters
+and process" for proceeding with a competitive solicitation (Valley-Rainbow
+RFP) to determine if there are cost-effective and reliable alternatives to
+SDG&E's proposed Valley-Rainbow transmission project. The specific Board
+motion can be found at:
+WEBLINK
+yRainbow500KVProject.htm
+WEBLINK
+eyRainbow500KVProject.htm>  and additional information on the project can be
+found at WEBLINK
+WEBLINK
+These matters are scheduled to be addressed at the August 1
+Board meeting. Attached is a memo that outlines ISO Management's preliminary
+thoughts and recommendations on how to structure the process for conducting
+and the parameters of the Valley-Rainbow RFP.  Please provide us your
+thoughts and feedback on these matters no later COB Friday, July 21.  Please
+
+recommendations outlined below are clearly a work-in-progress, it is
+imperative that we receive your substantive feedback early so that we can
+develop a fair and reasonable final recommendation. Thanks for your time and
+consideration.
+
+Steve Greenleaf
+Director, Regulatory Affairs
+
+Brian Theaker
+Manager, Reliability Contracts
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Market Participants:
+Please provide us your thoughts and feedback on these matters no later COB Friday, July 21.
+recommendations outlined below are clearly a work-in-progress, it is imperative that we receive your substantive feedback early so that we can develop a fair and reasonable final recommendation.
+Steve Greenleaf Director, Regulatory Affairs
+Brian Theaker Manager, Reliability Contracts
+
+
+===================================================================
+ID:          6
+SUBJECT:     For Discussion: Implementing Definition of Trading Office
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+this is the memo I was referring to - 
+
+i.e. very draft!
+What are your thoughts?
+
+I was going to write that the buying and selling of physical commodity 
+locally was OK, but that hedging had to be done with Regional Hub. The 
+problem with this model is that it describes Helsinki before the bust!
+
+Another possiblity is the agency model, where the local trader acts under the 
+direction of the hub trader. This is where Helsinki currently is (although we 
+also have an independent manager on site). However, I am not so happy with 
+this, and Rick Causey certainly does not like it. Perhaps we should recommend 
+independent Risk Managers in every office, but all correspondence and 
+settlement with regional hub?
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+this is the memo I was referring to -
+What are your thoughts?
+I was going to write that the buying and selling of physical commodity locally was OK, but that hedging had to be done with Regional Hub.
+Perhaps we should recommend independent Risk Managers in every office, but all correspondence and settlement with regional hub?
+
+
+===================================================================
+ID:          8
+SUBJECT:     Retention
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+There are a few key people which I believe are essential to achieve our goals 
+in gas risk management.  They are :
+
+Will Kelly
+Kam Keiser
+David Baumbach
+Darron Giron
+Kyle Etter
+
+Also,  Darron Giron will be taking over my role as West controller.  I am 
+still considering who should take over my role over the Benchmark and Natural 
+Gas P&L.
+
+Lastly,  I am scheduled to take a vacation Thursday and Friday.  I have made 
+sure that everyone of the controllers will be here,  and I can be reached by 
+pager and phone.  I can cancel this trip if need be.
+
+Thanks,
+
+JG
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+They are :
+Will Kelly Kam Keiser David Baumbach Darron Giron Kyle Etter
+I am still considering who should take over my role over the Benchmark and Natural Gas P&L.
+Lastly, I am scheduled to take a vacation Thursday and Friday.
+Thanks,
+JG
+
+
+===================================================================
+ID:          15
+SUBJECT:     expense Repot
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Mr. Cates, sir, would you please approve of the attached expense report?  You 
+are a kind and generous man.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Mr. Cates, sir, would you please approve of the attached expense report?
+
+
+===================================================================
+ID:          25
+SUBJECT:     Re: Meeting w/Sempra
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Roger.  Mums the word on the gov.
+
+Steven J Kean
+
+sounds good.  I think we should not talk about the conversations with the 
+governor . . . I'd rather not prompt them to go to the gov (presumably to 
+object to the gov talking to us without talking to them at the same time).
+
+Jeff Dasovich
+
+FYI.  Recently, Chris Calger has asked me to set up a meeting with Sempra.  
+ENA's seeking deals with the two big CA gas IOUs (PG&E and SoCalGas) that 
+would give ENA access to their assets.  In short, ENA wants to offer a 
+complete outsource deal for the IOUs' core gas load (i.e., rez and small 
+commercial customers).  ENA would take responsibility for providing service 
+for delivery at the city gate and in return would manage all of core's assets 
+(upstream of the city gate).  We're meeting with Sempra's "Chief Regulatory 
+Office" (Bill Reed) and Sempra's CFO next Thursday to discuss.
+
+Given the fact that Sempra's primarily focused on electricity, the plan is to 
+lead off the meeting with a couple of electricity solutions as a bridge to 
+the gas offer.  For electricity, the plan has two pieces:  1) a commodity 
+offer that beats the 6.5 cent cap (i.e., nothing fancy) and 2) "Deal Bench" 
+services with the intent of establishing a procurement mechanism for SDG&E 
+that the California PUC could pre-approve (thereby eliminating some of the 
+immense regulatory risk SDG&E now faces).
+
+Wanted to run this by folks to gauge reactions.  We'll distribute the slides 
+we're putting together as soon as they're drafted--hopefully by COB Friday.
+
+Best,
+Jeff
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Roger.
+Steven J Kean
+sounds good.
+Jeff Dasovich
+In short, ENA wants to offer a complete outsource deal for the IOUs' core gas load (i.e., rez and small commercial customers).
+For electricity, the plan has two pieces: 1) a commodity offer that beats the 6.5 cent cap (i.e., nothing fancy) and 2) "Deal Bench" services with the intent of establishing a procurement mechanism for SDG&E that the California PUC could pre-approve (thereby eliminating some of the immense regulatory risk SDG&E now faces).
+We'll distribute the slides we're putting together as soon as they're drafted--hopefully by COB Friday.
+Best, Jeff
+
+
+===================================================================
+ID:          32
+SUBJECT:     FW: Sue Mara & VICA
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Sue spoke on a panel today at the Valley Industry & Commerce Association (San Fernando Valley).  Marathon also attended and sent the following:  
+
+Hi Karen:
+
+Sue did a great job today at the VICA meeting.  I wish I could take Sue and
+fellow speaker Fred Pickle up and down the State of California to talk to
+business associations about energy.
+
+The audience was very receptive to the presentation.  Now that the energy
+crisis has moved off the front page and the legislature is out of session,
+people seem better able to absorb the magnitude and long-term ramifications
+of long term contracts, the end of direct access, etc.
+
+up and he didn't send anyone in his place.
+
+Carolyn Casavan, VICA co-chair of the energy & environment committee told
+Sue to call if there was anything that VICA could do to support efforts to
+reinstate direct access to please call.
+
+Hope you have a good weekend.
+
+Talk to you soon
+
+Sandra
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Marathon also attended and sent the following:
+Hi Karen:
+I wish I could take Sue and fellow speaker Fred Pickle up and down the State of California to talk to business associations about energy.
+Now that the energy crisis has moved off the front page and the legislature is out of session, people seem better able to absorb the magnitude and long-term ramifications of long term contracts, the end of direct access, etc.
+up and he didn't send anyone in his place.
+Carolyn Casavan, VICA co-chair of the energy & environment committee told Sue to call if there was anything that VICA could do to support efforts to reinstate direct access to please call.
+Hope you have a good weekend.
+Talk to you soon
+Sandra
+
+
+===================================================================
+ID:          34
+SUBJECT:     RE: Regulatory Updates - General Updates
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Jeff - I know we are a bit tardy in getting back to you. I think a good place to start would be a close review and routine updates on the following:
+
+1. PGT Gas Accord vs. attempt to convert jurisdiction to FERC in bankruptcy proceeding. As discussed, any delay in PG&E's ability to deal with the generators on a long term basis will facilitate bypass projects into the state.
+
+2. Socal - resurrection of GIR or any plans to open the backbone to firm, path based transportation.
+
+3. Southern Trails battle with Socal to gain access to firm takeaway capacity on SoCal's system and developments in Socal's RLS tariff.
+
+4. Any issues that you believe affect our commercial efforts in California.
+
+Obviously this is a small list. I would appreciate your feedback on issues that you believe to be critical drivers.
+
+Regards,
+
+Stephanie
+
+Stephanie and I met with Jeff Dasovich in San Fransisco on Friday.  Jeff understands that he can play an important/strategic role in assisting ENA West Gas in understanding the regulated issues for Gas... There is no doubt that ENA has spent most of our resources in power ( and for good reason) however we need to re focus energy on gas related structures. 
+
+To facilitate this effort, Jeff has offered to focus some more of his time and effort on coordinating some of the key commercial issues related to California.  Jane and Stephanie need to create a priority list that represents West Gas issues and "Hot Button" or action items. Once created we can work with Jeff on action items.  In addition to this immediate need, Jeff will join our conference call's/meetings ( or attend where possible).  The next session I have on my calendar is Thurs Sept 5 @ 2:30.  
+
+I trust this initiative will further enhance an already effective procedure. If there are any questions, let me know.
+
+regards, 
+
+Barry Tycholiz
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+I think a good place to start would be a close review and routine updates on the following:
+PGT Gas Accord vs. attempt to convert jurisdiction to FERC in bankruptcy proceeding.
+Socal - resurrection of GIR or any plans to open the backbone to firm, path based transportation.
+Southern Trails battle with Socal to gain access to firm takeaway capacity on SoCal's system and developments in Socal's RLS tariff.
+Any issues that you believe affect our commercial efforts in California.
+I would appreciate your feedback on issues that you believe to be critical drivers.
+Regards,
+Stephanie
+Stephanie and I met with Jeff Dasovich in San Fransisco on Friday.
+The next session I have on my calendar is Thurs Sept 5 @ 2:30.
+I trust this initiative will further enhance an already effective procedure.
+regards,
+Barry Tycholiz
+
+
+===================================================================
+ID:          47
+SUBJECT:     Re: Request for Application Report List
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+This is the David's answer:
+
+The only one that I can think of that may be of use is the "CES Volume
+Comparison" report ... that is the one that ya'll had for January that showed
+all of the purchases and sales, by pipeline.  It is available for any month.
+The reports that I regularly used were for helping to clean up current month
+activity, which would not be of any use to you.
+
+David
+
+Hey David,
+
+Could you help me determine the GMS reports that I may need. Thanks for your 
+help.
+
+Ami
+
+This is a follow up to the earlier email I forwarded regarding CES historical 
+information. Note the deadline of 1/15, I believe that should be Friday 1/14 
+so I need your responses by Thursday 1/13. 
+
+Please fill out the spreadsheet for each area and forward back to me. I will 
+consolidate our responses from a Logistics perspective. Lets have them add 
+everything they need and if challenged we can re-review later.
+
+Thanks - Bob
+
+Last month Richard Burchfield sent us the following list of reports that are 
+available from CES's systems.  IT is working on a way to secure an electronic 
+copy of the required reports and making them available to us online via the 
+electronic document management system.  While ENA is not liable for pre-2000 
+business, we may need to assist with research as issues arise.  In order to 
+get the ball rolling, we need to get a list together of the reports we need.  
+Please fill out the attached spreadsheet and list any reports that you need 
+and return it to me by Friday, 1/15/2000.  If you do not want any reports, 
+please send me an Email letting me know that.  I have included samples of how 
+to fill this out, and if you have any questions please give me a call.
+
+If you aren't sure which reports you need based on the names, please get with 
+any CES employees you have hired or with a CES transition employee to get 
+clarification.  If you need samples of any of these reports please let my 
+assistant, Pam Chambers, know and she will coordinate getting a sample report 
+printed for you.  
+
+In addition, I will need a list of the users and their logonid's who will 
+need to have access to this data.  Please send that to me by the 15th as 
+well.  
+
+Thanks, Bryce
+
+Richard Burchfield
+12/01/99 04:58 PM
+
+All,
+Below is attached the report list for CES.
+
+Richard
+
+Please see the attached for the Altra GMS report listing.  Please forward any
+additional questions relating to Altra GMS to Linda Licarione (713-693-2845) 
+or
+Jeff Peeples (713-693-2597).  Thanks.
+
+Linda Licarione
+12/01/99 01:04 PM
+
+Attached is a list of 210 reports from Altra GMS.  Please note that we may not
+be using all of these reports.  If you need me to scale this down to those
+currently being used, I will need to do a bit of analysis.  Many of the base
+reports, those denoted in the spreadsheet with filename-location (1st column) 
+=
+master.mdb are not currently being used at CES.  Let me know if you have any
+questions.
+
+Can you provide me with a complete list of GMS reports?
+
+Clay,
+I have had several requests from the ENA business groups. now that the
+agreement has been finalized, for report lists from your key applications, 
+those
+being, Altra GMS and Risk Works( there may be others as people become more
+aware). There will be a need for information for ENA to manage contracts as we
+go through he transition period. We feel this would be an easier process to 
+work
+through if ENA knows what kind of information they can request as we go 
+through
+the transition.
+
+Thanks, Richard
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+This is the David's answer:
+The reports that I regularly used were for helping to clean up current month activity, which would not be of any use to you.
+David
+Hey David,
+Could you help me determine the GMS reports that I may need.
+Ami
+This is a follow up to the earlier email I forwarded regarding CES historical information.
+I will consolidate our responses from a Logistics perspective.
+Thanks - Bob
+Last month Richard Burchfield sent us the following list of reports that are available from CES's systems.
+If you need samples of any of these reports please let my assistant, Pam Chambers, know and she will coordinate getting a sample report printed for you.
+Please send that to me by the 15th as well.
+Thanks, Bryce
+Richard Burchfield 12/01/99 04:58 PM
+All, Below is attached the report list for CES.
+Richard
+Please forward any additional questions relating to Altra GMS to Linda Licarione (713-693-2845) or Jeff Peeples (713-693-2597).
+Linda Licarione 12/01/99 01:04 PM
+Many of the base reports, those denoted in the spreadsheet with filename-location (1st column) = master.mdb are not currently being used at CES.
+Can you provide me with a complete list of GMS reports?
+Clay, I have had several requests from the ENA business groups.
+Thanks, Richard
+
+
+===================================================================
+ID:          50
+SUBJECT:     Nomination Change
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+On Monday June 5th thru June 8th, the Quinduno Field connected to the Oneok 
+Stinnett Plant will be shut in by Oneok for maintenance.  The production 
+should be back on the afternoon of June 8th and our nomination should be in 
+place for the 9th.  Sorry about the short notice but I just confirmed with 
+Oneok that this was going to happen.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+On Monday June 5th thru June 8th, the Quinduno Field connected to the Oneok Stinnett Plant will be shut in by Oneok for maintenance.
+
+
+===================================================================
+ID:          57
+SUBJECT:     Re: Tenaska IV 10/00
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Megan, James, and I met regarding the payment due Tenaska IV.  I am OK with 
+paying what is in the system right now.  However, I would like for all of us 
+to meet today regarding some accounting issues,  What is everyone's 
+availability for this afternoon?
+
+Please let me know ASAP.
+
+In most cases, ENA will be a net buyer from Tenaska IV for activity related 
+to the Cleburne plant.  However, for October 2000, the plant was down the 
+majority of the month and ENA sold off the supply, resulting in ENA owing 
+money to Tenaska IV.
+
+I have created deal 529856 with a demand of $1,798,389.73, which is the 
+calculated amount of income on the Cleburne desk. (Please see the attached 
+schedule.)   We need to pass this income on to Tenaska IV.  Do we need to pay 
+this amount (wire from ENA to Tenaska IV) or is there another way to do 
+this?  This is the case for October 2000 and could possibly happen again in 
+the future.
+
+Greg, Troy, Jim - Please let me know what you think about settling this.
+
+Megan - Don't pay the amount until we here from the Greg, Troy and Jim.  
+Also, make sure that we have received dollars from the spot sales before we 
+reimburse Tenaska IV.
+
+D
+
+We have actuals.  The larger of the two volumes is 1,395,000, which is 
+45,000/day, so the demand rate in deal 514353 is fine.  I am having a 
+problem, though, with the way it is coming to settlements.  It is showing up 
+with a Jan 2003 delivery date.  I think the demand fee needs to be on 10/1 
+only.  Right now, it is on a line with a date of 10/1/00 to 12/31/36.   I 
+think this is confusing the system some how.  Also, we still need the 
+purchase deal for Tenaska IV.  It should be for a demand fee of $2,571,135.73 
+booked to the Cleburne desk.  We actually owe $1,798,389.73, but I need to 
+net the Tenaska IV sales with the purchase to clear those receivables.  James 
+is calling me every day asking for an update.  Do you know when we will be 
+able to get this in the system?  I have attached my spreadsheet so you can 
+see the numbers.
+
+Megan
+
+<<<<<<<<<<<<<<<<<<<<<<<<<< SUMMARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Megan, James, and I met regarding the payment due Tenaska IV.
+Please let me know ASAP.
+In most cases, ENA will be a net buyer from Tenaska IV for activity related to the Cleburne plant.
+(Please see the attached schedule.)
+Greg, Troy, Jim - Please let me know what you think about settling this.
+Also, make sure that we have received dollars from the spot sales before we reimburse Tenaska IV.
+D
+We actually owe $1,798,389.73, but I need to net the Tenaska IV sales with the purchase to clear those receivables.
+Megan
+
+

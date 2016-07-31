@@ -1,0 +1,587 @@
+This request has been pending your approval for  136 days.  Please click WEBLINK to review and act upon this request.
+
+Request ID          : 000000000041547
+Request Create Date : 6/19/01 7:50:30 AM
+
+Resource Name       : \\nahoutrd\houston\pwr\common\power2\Region - [Read]
+Resource Type       : Directory
+
+--------------------------------------------------------------------------------
+
+1. Only send your timesheet if you have taken time off/rotation information 
+has changed. Sorry, we are no longer tracking overtime since you are salary 
+based. To all A/A Pool members: it is important that you let us know of any 
+time you have taken off. To those members who are sending time on to your 
+assistant, please make sure they forward that information on to the A/A 
+program. With the Roll Out of SAP, you have the ability to go on-line @ 
+WEBLINK and input your time. I will continue to email for 
+timesheets regardless if you go on-line. This is to let you know it is time 
+to input your time or fills out your timesheet.
+2. If you have moved recently, please provide the following and indicate the 
+new changes when sending your timesheet.
+
+NEW ROTATION:
+Business Unit and Group:
+Effective Date:
+Location:
+Extension:
+Supervisor:
+Supervisor's Location:
+Supervisor's Extension:
+Supervisor's Assistant:
+Assistant's Location:
+Assistant's Extension:
+Co #
+RC #
+
+3. Quick reminder that you can pick up your check or past period check @ EB 
+1198 (if they are not already coming to your location/mail stop). 
+
+Thank You for Your Cooperation
+RT
+
+--------------------------------------------------------------------------------
+
+Your SAP user ID is P00501250.  Your initial password is your birthdate in 
+YYYYMMDD format.    808333
+
+How do I go about getting my logon id and password?  I seem to have deleted 
+the e-mail that was sent out.
+
+Thanks,
+
+Eric Bass 
+x30977
+
+--------------------------------------------------------------------------------
+
+You have received this email because you are listed as a security approver. 
+Please click 
+WEBLINK
+Approval to review and act upon this request.
+
+Request ID          : 000000000007588
+Request Create Date : 11/16/00 11:17:54 AM
+
+Resource Name       : EOL US Backoffice  Product Data Manager
+Resource Type       : Applications
+
+--------------------------------------------------------------------------------
+
+Dear Market Participants
+
+On October 17, 2001, the NYISO web servers will be upgraded.  This will
+require both software and hardware changes.  While these changes will be
+transparent to the users, these changes will require that the MIS system
+
+HAM transactions or modifying Day Ahead bids should act accordingly.
+
+The NYISO will minimize the duration of the outage as much as possible
+
+these changes will result in a more stable environment and provide enhanced
+services that the current web servers are unable to perform.
+
+If you have any questions, please call your Customer Relations
+Representative or the Help Desk at (518) 356-6060.
+
+Thank You
+Customer Relations
+
+--------------------------------------------------------------------------------
+
+This warning is sent automatically to inform you that your mailbox is approaching the maximum size limit.
+Your mailbox size is currently 75220 KB.
+
+Mailbox size limits:
+
+When your mailbox reaches 75000 KB you will receive this message.To check the size of your mailbox: 
+
+Right-click the mailbox (Outlook Today), 
+Select Properties and click the Folder Size button. 
+This method can be used on individual folders as well. 
+
+To make more space available, delete any items that are no longer needed such as Sent Items and Journal entries.  
+
+You must empty the Deleted Items folder after deleting items or the space will not be freed. 
+
+To turn Journaling off, 
+click Tools | Options | Journaling Options and de-select all items. 
+
+See client Help for more information.
+
+--------------------------------------------------------------------------------
+Paul,
+You are correct...for us Core Procurement is just another customer. We keep
+records on all customers that us our storage program. The change was just to
+acknowledge that fact.
+Dan
+
+----------
+
+Litteneker, Randall (Law); McCarty, Steven; McManus, Chris; Risser,
+Roland; Rubin, David; Torres, Albert; Stoner, Ronald; Eisenman, Eric;
+Bellenger, Geoffrey
+
+from Pa rtie s
+
+At least one change was made on the mark-up that wasn't flagged in the
+Summary.  In C.1.e; maintain records of the 'Core Procurement's' storage
+activity, was changed to maintaining records for 'all storage accounts'.
+Is
+this because PG&E would consider Core Procurement to be just another
+storage
+account?  If so, the original intent is still accomplished.  However,
+although the Parties obviously thought there might at some point be value
+in
+examining the historical info on the core's use of storage, I don't think
+any of us would feel we ever would have any business examining data on a
+third party's use of their negotiated storage account.
+
+Paul Amirault
+VP Bus. Dvlpt., Wild Goose Storage Inc., and
+
+AEC Storage & Hub Services (403) 266-8298
+
+DEAR OII AND OFO SETTLEMENT PARTIES:
+
+Thank you to the parties who worked very hard to develop the September 15,
+1999 OFO Settlement Proposal in response to PG&E's August 18 proposal.  We
+have carefully reviewed your settlement offer and sought clarification
+where
+needed.  As a result, PG&E is able to accept most of the changes and
+provisions contained in that proposal, and is offering back a few
+modifications which we think should allow us to reach closure on a
+multi-party OFO Settlement Agreement.  We encourage all parties to sign
+this
+settlement.
+
+Our September 24, 1999 response is attached in two forms.  One is a
+summary
+of the items we agree with and those where we have changes, including the
+reason for our changes.  The second is a revision-marking of the September
+15 proposal to show all the specific changes, including some minor edits.
+We have not included the tariff revisions to support this package, but
+will
+provide them once we have a final agreement.  At this point, the changes
+to
+the prior tariff drafts are straight forward.
+
+Also attached is a draft Joint Motion for your review and approval.  Our
+suggested approach is to have Settlement Parties sign the motion as the
+means of signifying their approval of the Settlement and the need for
+expeditious Commission action.
+
+We have scheduled a Settlement Conference next week on Tuesday, September
+28, starting at 10:00 a.m. in Room 308, 77 Beale Street, San Francisco.
+HOWEVER, the attendance of a couple key parties is problematic, and we may
+need to move this settlement meeting to accommodate their schedules so we
+can ensure a productive day.  We will advise you no later than Monday
+morning of the meeting status and possible next steps.
+
+We appreciate your continued active participation in this settlement
+process
+and look forward to your feedback on our modifications.
+
+Sincerely,
+
+Dan Thomas
+PG&E California Gas Transmission
+Manager, Products and Sales
+
+Ben Campbell
+Patrick Golden
+Randy Litteneker
+Steve McCarty
+Chris McManus
+Roland Risser
+Dave Rubin
+Al Torres
+Ron Stoner
+Eric Eisenman
+Geoffrey Bellenger
+
+Attachments
+
+OFO
+--------------------------------------------------------------------------------
+What is this?
+
+Regards
+Delainey
+
+This request has been pending your approval for  4 days.  Please click 
+WEBLINK
+Approval to review and act upon this request.
+
+Request ID          : 000000000010104
+Request Create Date : 12/12/00 3:45:40 PM
+
+Resource Name       : VPN
+Resource Type       : Applications
+--------------------------------------------------------------------------------
+This request has been pending approval for  3 days and you are the alternate.  Please click WEBLINK to review and act upon this request.
+
+Request ID          : 000000000077031
+
+Request Create Date : 11/21/01 11:59:52 AM
+
+Resource Type       : Applications
+--------------------------------------------------------------------------------
+Start Date: 4/16/01; HourAhead hour: 17;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+
+LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001041617.txt
+
+---- Generation Schedule ----
+$$$ Variance found in table tblGEN_SCHEDULE.
+Details: (Hour: 17 / Preferred:  45.00 / Final:  44.90)
+TRANS_TYPE: FINAL
+SC_ID: DELANO
+MKT_TYPE: 2
+TRANS_DATE: 4/16/01
+UNIT_ID: PANDOL_6_UNIT
+--------------------------------------------------------------------------------
+Hello Mark,
+
+Both Bob and myself have left messages to speak with you about email 
+retention time.  Those messages must have been lost, so I have decided to try 
+email.
+
+The group we work in, Technical Power Services,  is project oriented.  We are 
+an extension of the Engineering department.  As you are well aware the 
+development, and construction of power projects can be a minimum of 9 months, 
+to as long as 4 years plus.  To give an example, the work that has been 
+started on the coal initiative. At $4-$5 mmbtu for gas, the development of 
+coal plants becomes more economical.  This development is just starting, 
+nothing will be decided for a couple of years, then if it goes ahead 
+construction could easily be 3 years or more.
+
+What we are trying to stress is the information that is started in the 
+beginning of a project needs flow through to the end of the project, which in 
+most instances is longer than a year.
+
+Some of the current power projects we are developing have COD date in 2002 to 
+2004.  The retention of email is important to the projects.
+
+The companies that we deal with will be keeping the correspondence and if we 
+don't have our own copies, I think you know where this is going.
+
+We would like to discuss this with you.  There has been folders set up in the 
+Public mailbox system to give us more than the 100MB limit.  This is very 
+helpful since some drawings files we receive can be over 10MB.
+
+We are patiently waiting to speak with you on this subject.
+
+Thank you.
+
+Terri Austin
+Development Engineer
+713-345-4681
+--------------------------------------------------------------------------------
+<<...OLE_Obj...>>
+E-Notes provides regular briefings on new developments in global energy and
+public utility law.
+December 13, 2000
+
+Reactive Power Capability Challenges Future Transmission
+By Michael J. Zimmer
+Baker & McKenzie
+Washington, D.C.
+
+A significant challenge to the transmission providers reported by the
+National Electric Reliability Council (NERC) will be to maintain adequate
+levels of reactive support for the transmission system in the era of open
+market competition in the U.S.  Unlike real power (MW), the reactive
+component of power (Mvar) cannot be easily transmitted over longer distances
+and must generally be supplied at the local level.  Without adequate
+reactive power support, portions of the electric power system can be
+susceptible to potential voltage collapse or instability according to NERC.
+Sources of reactive power include generators, synchronous condensers,
+transmission lines, capacitors, and very specialized reactive support
+devices generally known as static var compensators (SVCs).  Demand for
+reactive power is shaped by the size and type of demand, power transactions
+across the transmission system, and the loading of transmission facilities.
+This demand for reactive power is growing nationwide.
+
+Decline in Reactive Improvements
+
+Many electric utilities made concerted efforts to improve reactive support
+as demand grew by adding shunt capacitors on their distribution and
+subtransmission systems, NERC reports.  However, such distribution reactive
+improvement programs have declined in recent years within the industry.
+Reactive support programs must be continuous as demand on the distribution
+system continues to escalate.  A chief component of that growth in the need
+for reactive improvement has been air conditioning which particularly
+requires increasing levels of reactive support.  Most air conditioner demand
+is motor load, requiring significant reactive power support.  Because of its
+interaction with the transmission system, reactive support is one area that
+distribution companies must not ignore if reliability is to be maintained on
+the bulk transmission system.
+
+The physics of transferring power across a transmission line causes it to
+consume reactive power, with increased transfers resulting in escalating
+voltage decline across the line.  When heavy power transfers occur across a
+transmission system interface and transmission lines are heavily loaded,
+voltage in the area of the interface can become depressed if sufficient
+reactive supplies are not available to the system, NERC has stated.
+
+Open Access Impacts
+
+When transfers of power follow a consistent directional pattern, it is
+relatively easy to plan and justify costs for the required reactive support
+for the transfers.  For example, significant reactive support was added on
+the bulk system to enable higher transfers from ECAR to MAAC and the VACAR
+subregion of SERC in the early 1990s.  However, under open access
+transmission, transactions are conducted in large numbers across long
+distances, and often flow in directions that were not anticipated when the
+transmission system was originally planned and built.  The direction and
+amount of such transfers has become much more volatile, changing daily, and
+sometimes hourly.  Consequently, planning reactive support enhancements for
+improving transfer capability has become more difficult as the pace and
+level of transactions have become more short-term and real-time.
+
+There is currently no incentive to increase the levels of reactive support
+on the bulk power system, NERC states.  In fact, there are disincentives,
+because generators are paid to produce real power, not reactive power under
+current contracting.  There is a tradeoff between producing real and
+reactive power because reactive power generation decreases as the real
+output increases.  A recent spate of nuclear unit upgrades effectively
+lowered the units' reactive power output capabilities as the real output of
+these nuclear units was increased.
+
+In the long term, transmission providers must reevaluate their bulk power
+systems in light of open access, including planning for necessary reactive
+support.  Business is increasing on the transmission system, but very little
+is being done to increase the load serving and transfer capability of the
+bulk transmission system.  This will be essential for supporting development
+of regional transmission organizations (RTO).  Most of the transmission
+projects planned over the next ten years are intended to reinforce parts of
+the system to alleviate local problems.
+
+Future Planning Opportunities
+
+This raises several issues for future planning:
+
+* Can distributed generation become a new market source for reactive
+power capability?
+* Can distributed generation become a source of reliable transmission
+loading relief avoidance?
+* Is there a third party, competitive market for reactive power?  Is
+there a merchant reactive power plant market to avoid voltage reduction
+which should be encouraged?
+* Who manages this critical bulk power system issue in a
+post-restructured world?  Generators? Transmission? Distributors? Marketers?
+* Will this issue become impaired further with distribution company
+mergers and consolidations?
+* Will most new transmission gravitate to reinforce the system for
+local problems management, because of a lack of RTO's and strong regional
+siting?  Are independent system operator's doing enough to manage this
+challenge?
+* Is this another incentive for the power quality market to respond?
+
+The ability to transfer electric energy across interfaces or seams hampers
+reactive power support.  NERC believes it is a national imperative that
+reactive power improvements keep pace with the demands being placed on the
+transmission systems to maintain reliability.  We are already seeing this as
+an element of key market disruptions.  Reactive power support must
+
+distribution.  With existing regulatory structures, this could be falling in
+the cracks with open access transmission, widely varying flow patterns and
+associated reactive demands have become commonplace and need accommodation.
+The reactive power support system will need to become more versatile for
+open access transmission objectives to be achieved, and needs further
+attention in the RTO formation process for RTO's to be successful and
+thrive.
+
+****
+
+DID YOU KNOW?
+
+* According to recent reports by the Edison Electric Institute, the
+level of transmission investment in the U.S. has declined for over 20
+successive years.
+
+* The number of transmission load relief postings has escalated since
+1998, transmission congestion is up 40% in 1998-9; and 140% in 1999-2000.
+
+___________________________________________________________________________
+E-Notes is a publication of Baker & McKenzie.  It does not constitute legal
+advice or a legal opinion on any specific facts or circumstances.  The
+contents are intended as general information only.  You are urged to consult
+your attorney concerning your situation and specific legal questions you may
+have.  For further information on the subjects discussed in E-Notes, contact
+
+For more information about BAKER & McKENZIE, click on our business card:
+
+or visit out website at WEBLINK
+--------------------------------------------------------------------------------
+Start Date: 4/19/01; HourAhead hour: 18;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in SC Trades schedule.
+Variances detected in Load schedule.
+
+LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001041918.txt
+
+---- SC Trades Schedule ----
+$$$ Variance found in table tblInt_Interchange.
+Details: (Hour: 18 / Preferred: -144.00 / Final: -125.00)
+TRANS_TYPE: FINAL
+SC_ID: EPMI
+MKT_TYPE: 2
+TRANS_DATE: 4/19/01
+TRADING_SC: EPPS
+PNT_OF_INTRC: SP15
+SCHED_TYPE: ENGY
+PURCH_SALE: 1
+DEAL_NO: 1
+
+---- Load Schedule ----
+$$$ Variance found in table tblLoads.
+Details: (Hour: 18 / Preferred:   0.52 / Final:   0.35)
+TRANS_TYPE: FINAL
+LOAD_ID: PGE1
+MKT_TYPE: 2
+TRANS_DATE: 4/19/01
+SC_ID: EPMI
+$$$ Variance found in table tblLoads.
+Details: (Hour: 18 / Preferred:   5.77 / Final:   3.98)
+TRANS_TYPE: FINAL
+LOAD_ID: PGE2
+MKT_TYPE: 2
+TRANS_DATE: 4/19/01
+SC_ID: EPMI
+$$$ Variance found in table tblLoads.
+Details: (Hour: 18 / Preferred:  52.62 / Final:  35.61)
+TRANS_TYPE: FINAL
+LOAD_ID: PGE3
+MKT_TYPE: 2
+TRANS_DATE: 4/19/01
+SC_ID: EPMI
+--------------------------------------------------------------------------------
+Everyone, 
+
+Once again, there are a number of new viruses that have been released on the internet that are causing us to do frequent updates to our virus protection software.  
+
+We have an automated process to update our workstations with the latest virus protection updates.   However, there may be some machines that didn't get the update.  In order to prevent these viruses from infecting your machine, please assist by doing one of the following tasks. 
+
+1.  Logout of the network and log back in or
+2.  Click on START>PROGRAMS>ACCESSORIES>Norton AntiVirus Corporate Edition and then click the Live Update button.  This will pop up a screen where you will have to click the "Next" button and then a "Finish" button.   (If you are an EES user, you will only be able to use option #1 as you use a different virus protection product.)     
+
+The proper version of the update pattern you need is:   (9/24/2001, version 30924p)
+
+If you have questions or concerns, please direct them to your Resolution Center.
+
+Enron Global Technology
+--------------------------------------------------------------------------------
+SRRS Decommissioning Notification
+
+We are one @Enron
+
+Effective Friday December 22, 2000, you will have a new Security Request=20
+Database:
+
+In the past, Enron Corporate/North American users have used the Security=20
+Resource Request System (SRRS) lotus notes database for their security=20
+request needs including New Hire/Contractor/Temporary access and=20
+Terminations. In response to the business reorganization, the IT Security a=
+nd=20
+Controls group is working to streamline Enron=01,s Security Request structu=
+re=20
+and create one single request database for all groups to use, eRequest,=20
+located at WEBLINK
+
+Please click on the following link to retrieve the eRequest training guide:=
+=20
+
+WEBLINKdata/services/training/documentationurl/
+
+A great deal of effort has been put into this project to eliminate any=20
+duplicate security requests in Enron's Global Enterprise.  When you attempt=
+=20
+to access the SRRS through Lotus Notes on Dec. 22, you will find a link to=
+=20
+the new eRequest system. =20
+
+If you have additional questions regarding your new security request or if=
+=20
+you have any problems with the eRequest system, please contact Information=
+=20
+Risk Management at 713.853-5536.=20
+
+
+Thank you
+
+Information Risk Management
+--------------------------------------------------------------------------------
+Attention Business Objects Users:
+
+Please read the following for information regarding the upgrade of Business Objects.
+
+Summary
+
+InfoSource Users
+There will be no changes for InfoSource users.  You will still connect using WEBLINK
+
+ZABO Users
+Starting on December 14 all ZABO users will need to have the newest version installed.  There is an automated process to install the new version.  You will have to go to Start>Programs>Business Applications>ZABO ETS.  Clicking on the ZABO ETS icon will begin the install process.  
+
+Business Query Users
+Currently Business Query will have to be installed locally on each PC.  Someone will be contacting you to arrange the installation.
+
+Thank you,
+Lori Saffer
+713-853-0641
+--------------------------------------------------------------------------------
+Start Date: 1/14/02; HourAhead hour: 10;  No ancillary schedules awarded.  No variances detected.
+
+LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final Schedules\2002011410.txt
+--------------------------------------------------------------------------------
+SRRS Decommissioning Notification
+
+We are one @Enron
+
+Effective Friday December 22, 2000, you will have a new Security Request=20
+Database:
+
+In the past, Enron Corporate/North American users have used the Security=20
+Resource Request System (SRRS) lotus notes database for their security=20
+request needs including New Hire/Contractor/Temporary access and=20
+Terminations. In response to the business reorganization, the IT Security a=
+nd=20
+Controls group is working to streamline Enron=01,s Security Request structu=
+re=20
+and create one single request database for all groups to use, eRequest,=20
+located at WEBLINK
+
+Please click on the following link to retrieve the eRequest training guide:=
+=20
+
+WEBLINKdata/services/training/documentationurl/
+
+A great deal of effort has been put into this project to eliminate any=20
+duplicate security requests in Enron's Global Enterprise.  When you attempt=
+=20
+to access the SRRS through Lotus Notes on Dec. 22, you will find a link to=
+=20
+the new eRequest system. =20
+
+If you have additional questions regarding your new security request or if=
+=20
+you have any problems with the eRequest system, please contact Information=
+=20
+Risk Management at 713.853-5536.=20
+
+
+Thank you
+
+Information Risk Management
+--------------------------------------------------------------------------------
