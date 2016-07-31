@@ -1,0 +1,4 @@
+DATES: March | 14th | 
+Meter 985688 recorded flow from March 14th to the end of the month, averaging around 130 per day.  The above deal has a zero volume in it, creating an allocation exception at that point.  Bob is out and this is a gathering point, so do you have any objection with me inserting a deal volume of 130 per day for that time period?
+
+Thanks.

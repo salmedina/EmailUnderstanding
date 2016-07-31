@@ -1,4 +1,5 @@
 import email
+import re
 import sys
 
 from sqlalchemy.engine import create_engine
@@ -6,9 +7,24 @@ from sqlalchemy.sql import select
 from sqlalchemy.sql.schema import Table, MetaData
 from sqlalchemy import update
 
+labels = {1:"Company business, strategy, alliances etc.",
+          2:"Company image, PR, press releases",
+          3:"Employment arrangements (hiring etc.)",
+          4:"Empty message",
+          5:"IT (Information technology)",
+          6:"Jokes, humour, fun",
+          7:"Legal and regulatory affairs",
+          8:"Logistic arrangements (meetings etc.)",
+          9:"News and newsletters",
+          10:"Other",
+          11:"Personal, Friends, Family",
+          12:"Political influence and contacts",
+          13:"Project work, general collaboration",
+          14:"Spam"}
 
 class Email:
     def __init__(self):
+        self.id = -1
         self.date = ''
         self.mime_type = ''
         self.from_addr = ''
@@ -40,11 +56,18 @@ class EnronDB:
     
     # RAW_EMAIL table
     def insert_email(self, email):
+        self.insert_to_table(email, "raw_email")
+    
+    # RAW_EMAIL table
+    def insert_cleaned_email(self, email):
+        self.insert_to_table(email, "cleaned_email")
+
+    def insert_to_table(self, email, table_name):
         if not isinstance(email, Email):
             print 'ERROR: input must be of type Email'
             return
         
-        email_table = Table('raw_email', self.metadata)
+        email_table = Table(table_name, self.metadata)
         ins_stmt = email_table.insert()
         conn = self.engine.connect()
         result = conn.execute(ins_stmt, date=email.date,
@@ -66,6 +89,29 @@ class EnronDB:
             all_content += record.body + " "
         return all_content
     
+    def add_username(self):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.path])
+        rp = self.engine.execute(sel_stmt)
+        conn = self.engine.connect()
+        for record in rp:
+#             print(record)
+            p = "\/[^\/]*\/([^\/]+)"  # match the content between the second / and the third /
+            match = re.match(p, record.path)
+            if match:
+                username = match.group(1)
+                stmt = email_table.update().where(email_table.c.id == record.id).values(username=username)
+                conn.execute(stmt)
+            else:
+                print("Error! " + record.path)
+                exit(0)
+    
+    def update_brushed_email_is_scheduling(self, email_id, is_scheduling):
+        email_table = Table('brushed_email', self.metadata)
+        conn = self.engine.connect()
+        stmt = email_table.update().where(email_table.c.id == email_id).values(is_scheduling=is_scheduling)
+        conn.execute(stmt)
+
     def get_all_dates(self):
         email_table = Table('raw_email', self.metadata)
         sel_stmt = select([email_table.c.date])
@@ -109,6 +155,53 @@ class EnronDB:
             bodies.append(record.body)
         return bodies
 
+    def get_all_brushed_emails(self):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.date, email_table.c.mime_type, \
+                           email_table.c.from_addr, email_table.c.to_adddr, \
+                           email_table.c.subject, email_table.c.body, email_table.c.one_line, \
+                           email_table.c.path, email_table.c.label, email_table.c.is_scheduling])
+        rp = self.engine.execute(sel_stmt)
+        emails = []
+        for record in rp:
+            email = Email()
+            if record is not None:
+                email.id = record.id
+                email.date = record.date
+                email.mime_type = record.mime_type
+                email.from_addr = record.from_addr
+                email.to_addr = record.to_adddr
+                email.subject = record.subject
+                email.body = record.body
+                email.one_line = record.one_line
+                email.path = record.path
+                email.label = record.label
+                email.is_scheduling = record.is_scheduling or 0
+            emails.append(email)
+        return emails
+    
+    def get_brushed_email(self, email_id):
+        email_table = Table('brushed_email', self.metadata)
+        sel_stmt = select([email_table.c.date, email_table.c.mime_type, \
+                           email_table.c.from_addr, email_table.c.to_adddr, \
+                           email_table.c.subject, email_table.c.body, \
+                           email_table.c.path, email_table.c.label, email_table.c.is_scheduling]).where(email_table.c.id == email_id)
+        rp = self.engine.execute(sel_stmt)
+        record = rp.first()
+        email = Email()
+        if record is not None:
+            email.date = record.date
+            email.mime_type = record.mime_type
+            email.from_addr = record.from_addr
+            email.to_addr = record.to_adddr
+            email.subject = record.subject
+            email.body = record.body
+            email.path = record.path
+            email.label = record.label
+            email.is_scheduling = record.is_scheduling
+        
+        return email
+    
     def get_email(self, email_id):
         email_table = Table('raw_email', self.metadata)
         sel_stmt = select([email_table.c.date, email_table.c.mime_type, \

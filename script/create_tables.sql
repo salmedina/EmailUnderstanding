@@ -1,1 +1,3 @@
-create table raw_email (date DATETIME, mime_type VARCHAR(50), from_addr VARCHAR(50), to_addr TEXT, subject VARCHAR(255), body TEXT, path VARCHAR(255), label VARCHAR(20));
+create table raw_email (id INT, date DATETIME, mime_type TEXT, from_addr TEXT, to_addr TEXT, subject TEXT, body TEXT, path TEXT, label INT, PRIMARY KEY(id));
+create table thread (id INT, date DATETIME, from_address TEXT, to_address TEXT, cc_address TEXT, subject TEXT, body TEXT, label INT, PRIMARY_KEY(id));
+create table cleaned_email (id INT, date DATETIME, mime_type TEXT, from_addr TEXT, to_addr TEXT, subject TEXT, body TEXT, path TEXT, label INT, PRIMARY KEY(id));

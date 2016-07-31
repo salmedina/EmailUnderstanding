@@ -1,0 +1,8 @@
+DATES: November | 2000 | November | 2000 | 
+The NYISO is reserving hour beginning 900 in the 26 November 2000 Real-Time
+market as well as the following hours per ECA20001006B to verify prices:
+
+HQ: 700, 900
+OH: 700, 900
+NE: 700, 900.
+Prices in the 27 November 2000 Day-Ahead market are correct.

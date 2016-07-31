@@ -1,0 +1,25 @@
+DATES: 1 | 
+Pursuant to our discussions this morning, attached is John Griffith's file 
+regarding the changes in extrinsic value for each of the transport books.  As 
+we discussed, each of you should make a determination as to what changes in 
+correlation you should make to offset the decreases in value due to the 
+change in the model.  Since you have been using the correlation factor to 
+adjust the values to reflect market, a simple change decreasing these 
+correlations will offset the change in value due to John's "fix".  This 
+change simply makes the transport model one step closer to properly 
+reflecting the intra- and inter-month optionality values--Research did review 
+the change and agrees that it is appropriate.  If you have any questions, 
+please call me at x35514.
+
+John, thanks for your help with this!
+
+Greg, please coordinate with the traders when you expect to make this change 
+official in the books so that they can change their correlations accordingly.
+
+Colleen,
+
+Attached is a spreadsheet with 3 sheets - 1 with the 12/19 value, 1 with the 
+changed value and 1 with the difference.  Call me with any questions.  I am 
+working on explaining why a couple of deals went up in value.  Thanks.
+
+John

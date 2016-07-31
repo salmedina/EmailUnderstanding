@@ -1,0 +1,14 @@
+DATES: Friday | friday | 
+FYI
+
+Hi Andy,
+
+When it was decided that we would accept multi-day orders, we pointed out to Lavo and John that we do system maintenance for an hour every Friday night.  Their position was anytime we take the system down for any reason, planned or un-planned, we should kill all orders to prevent someone from being unable to cancel an order while the system was down and then having it fill before he can get to it.
+
+--jay
+
+Jay,
+
+Have received comments that when multi day limit orders are placed, they are not alive after a friday night. I think this might have to do with orders getting wiped out duirng maintenance but I wanted to alert you to this.
+
+AZ
