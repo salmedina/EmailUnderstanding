@@ -89,6 +89,7 @@ print("Overall score is %f." % classifier.score(numpy.array(test_arrays), numpy.
 
 corrects = []
 wrongs = []
+predictions = []
 schedulings = []
 for email in emails:
     email_id = email.id
@@ -102,7 +103,14 @@ for email in emails:
             wrongs.append((email.id, prediction, actual))
         else:
 #             print(max(classifier.predict_proba([model.docvecs[prefix_train_pos]])[0]), actual)
-            corrects.append(email.id)
+            corrects.append((email.id, prediction, actual))
+        predictions.append((email.id, prediction, actual))
+
+if len([x for x in predictions if x[1] == 1]) == 0:  # no prediction for 1
+    print("Recall: %f, Precision: NA" % (len([x for x in corrects if x[1] == 1]) / 7))
+else:
+    print("Recall: %f, Precision: %f" % (len([x for x in corrects if x[1] == 1]) / 7,
+                                         len([x for x in corrects if x[1] == 1]) / len([x for x in predictions if x[1] == 1])))
 
 print("%i are wrong, %i are correct." % (len(wrongs), len(corrects)))
 print("%i are scheduling emails." % len(schedulings))
