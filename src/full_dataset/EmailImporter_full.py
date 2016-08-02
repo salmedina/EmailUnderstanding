@@ -2,22 +2,19 @@ import datetime
 import email
 from email.utils import parsedate
 import os
-import re
 import time
 
-from DBUtil import initDB
 from EmailContentCleaner import clean
 from EnronDB import Email
+import EnronDB
 
 
-mail_root = "/Users/zhongzhu/Documents/code/EmailUnderstanding/data/Emails_with_label"
+mail_root = "/Volumes/My Passport/data/maildir/allen-p"
 
 def import_mails(mail_dir, db):
+    processed_count = 0
     # Traverse through all directories recursively
     for dirpath, _, filenames in os.walk(mail_dir):
-        match = re.search(r"Emails_with_label/(?P<label>\d+)/", dirpath)
-        if match:
-            label = match.group("label")
         for filename in filenames:
             if filename in [".DS_Store", ".gitignore"]:
                 continue
@@ -33,11 +30,13 @@ def import_mails(mail_dir, db):
                 e.subject = raw_email['Subject']
                 e.body = clean(raw_email.get_payload())
                 e.path = filepath[len(mail_root):]
-                e.label = int(label)
-            db.insert_cleaned_email(e)
+            db.insert_raw_email_full(e)
+            processed_count += 1
+    print(str(processed_count) + " emails processed.")
 
 if __name__ == '__main__':
-    enron_db = initDB()
+    enron_db = EnronDB.EnronDB()
+    enron_db.init('holbox.lti.cs.cmu.edu', 'inmind', 'yahoo', 'enron_experiment')
     
     # Import the final mails into db
     import_mails(mail_root, enron_db)

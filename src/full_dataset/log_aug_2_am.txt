@@ -1,0 +1,23 @@
+Training...
+Training completed!
+1015 emails processed in 267s in /Volumes/My Passport/data/maildir/donohoe-t.
+1400 emails processed in 368s in /Volumes/My Passport/data/maildir/carson-m.
+3034 emails processed in 892s in /Volumes/My Passport/data/maildir/allen-p.
+2127 emails processed in 679s in /Volumes/My Passport/data/maildir/dorland-c.
+2969 emails processed in 914s in /Volumes/My Passport/data/maildir/cash-m.
+1230 emails processed in 349s in /Volumes/My Passport/data/maildir/ermis-f.
+943 emails processed in 248s in /Volumes/My Passport/data/maildir/causholli-m.
+2025 emails processed in 646s in /Volumes/My Passport/data/maildir/corman-s.
+519 emails processed in 226s in /Volumes/My Passport/data/maildir/crandell-s.
+4898 emails processed in 1543s in /Volumes/My Passport/data/maildir/arnold-j.
+654 emails processed in 275s in /Volumes/My Passport/data/maildir/arora-h.
+1029 emails processed in 427s in /Volumes/My Passport/data/maildir/cuilla-m.
+877 emails processed in 275s in /Volumes/My Passport/data/maildir/badeer-r.
+478 emails processed in 118s in /Volumes/My Passport/data/maildir/bailey-s.
+13032 emails processed in 3873s in /Volumes/My Passport/data/maildir/farmer-d.
+7823 emails processed in 2165s in /Volumes/My Passport/data/maildir/bass-e.
+1498 emails processed in 456s in /Volumes/My Passport/data/maildir/fischer-m.
+729 emails processed in 178s in /Volumes/My Passport/data/maildir/forney-j.
+2760 emails processed in 784s in /Volumes/My Passport/data/maildir/baughman-d.
+4796 emails processed in 1204s in /Volumes/My Passport/data/maildir/fossum-d.
+590 emails processed in 142s in /Volumes/My Passport/data/maildir/gang-l.

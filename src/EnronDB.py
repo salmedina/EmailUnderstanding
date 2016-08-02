@@ -411,3 +411,147 @@ class EnronDB:
         u = u.where(brushed_table.c.id==email_id)
         conn = self.engine.connect()
         result = conn.execute(u)
+
+
+    # additional dataset, out of the labelled data
+    def insert_brushed_email_more(self, email):
+        if not isinstance(email, Email):
+            print 'ERROR: input must be of type Email'
+            return
+        
+        email_table = Table("brushed_email_more", self.metadata)
+        ins_stmt = email_table.insert()
+        conn = self.engine.connect()
+        conn.execute(ins_stmt, date=email.date,
+                              mime_type=email.mime_type,
+                              from_addr=email.from_addr,
+                              to_addr=email.to_addr,
+                              subject=email.subject,
+                              raw_body=email.body,
+                              body=email.body,
+                              all_lines=email.all_lines,
+                              one_line=email.one_line,
+                              path=email.path,
+                              label=email.label,
+                              prediction=email.prediction) 
+
+    def insert_cleaned_email_full(self, email):
+        if not isinstance(email, Email):
+            print 'ERROR: input must be of type Email'
+            return
+        
+        email_table = Table("email_full", self.metadata)
+        ins_stmt = email_table.insert()
+        conn = self.engine.connect()
+        conn.execute(ins_stmt, date=email.date,
+                              mime_type=email.mime_type,
+                              from_addr=email.from_addr,
+                              to_addr=email.to_addr,
+                              subject=email.subject,
+                              raw_body=email.raw_body,
+                              body=email.body,
+                              all_lines=email.all_lines,
+                              one_line=email.one_line,
+                              path=email.path) 
+    
+    def get_raw_bodies_with_id(self):
+        email_table = Table('email_full', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.raw_body])
+        rp = self.engine.execute(sel_stmt)
+        bodies = []
+        for record in rp:
+            bodies.append((record.id, record.raw_body))
+        return bodies 
+    
+    def update_brushed_body_full(self,email_id, body):
+        brushed_table = Table('email_full', self.metadata)
+        u = update(brushed_table)
+        u = u.values(body=body)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)
+    
+    def update_brushed_lines_full(self,email_id, msg_lines):
+        brushed_table = Table('email_full', self.metadata)
+        u = update(brushed_table)
+        u = u.values(all_lines=msg_lines)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)
+    
+    def get_all_brushed_lines_with_id_full(self):
+        email_table = Table('email_full', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.all_lines])
+        rp = self.engine.execute(sel_stmt)
+        lines = []
+        for record in rp:
+            lines.append((record.id, record.all_lines))
+        return lines
+    
+    def update_brushed_one_line_full(self,email_id, one_line):
+        brushed_table = Table('email_full', self.metadata)
+        u = update(brushed_table)
+        u = u.values(one_line=one_line)
+        u = u.where(brushed_table.c.id==email_id)
+        conn = self.engine.connect()
+        result = conn.execute(u)
+    
+    def get_email_full(self, email_id):
+        email_table = Table('email_full', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.raw_body]).where(email_table.c.id==email_id)
+        rp = self.engine.execute(sel_stmt)
+        bodies = []
+        for record in rp:
+            bodies.append((record.id, record.raw_body))
+        return bodies[0]
+    
+    def get_all_brushed_emails_full(self):
+        email_table = Table('email_full', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.date, email_table.c.mime_type, \
+                           email_table.c.from_addr, email_table.c.to_addr, \
+                           email_table.c.subject, email_table.c.body, email_table.c.one_line, \
+                           email_table.c.path, email_table.c.label, email_table.c.is_scheduling])
+        rp = self.engine.execute(sel_stmt)
+        emails = []
+        for record in rp:
+            email = Email()
+            if record is not None:
+                email.id = record.id
+                email.date = record.date
+                email.mime_type = record.mime_type
+                email.from_addr = record.from_addr
+                email.to_addr = record.to_addr
+                email.subject = record.subject
+                email.body = record.body
+                email.one_line = record.one_line
+                email.path = record.path
+                email.label = record.label
+                email.is_scheduling = record.is_scheduling or 0
+            emails.append(email)
+        return emails
+    
+    def get_all_brushed_email_more(self):
+        email_table = Table('brushed_email_more', self.metadata)
+        sel_stmt = select([email_table.c.id, email_table.c.date, email_table.c.mime_type, \
+                           email_table.c.from_addr, email_table.c.to_addr, \
+                           email_table.c.subject, email_table.c.body, email_table.c.one_line, \
+                           email_table.c.path, email_table.c.label, email_table.c.is_scheduling])
+        rp = self.engine.execute(sel_stmt)
+        emails = []
+        for record in rp:
+            email = Email()
+            if record is not None:
+                email.id = record.id
+                email.date = record.date
+                email.mime_type = record.mime_type
+                email.from_addr = record.from_addr
+                email.to_addr = record.to_addr
+                email.subject = record.subject
+                email.body = record.body
+                email.one_line = record.one_line
+                email.path = record.path
+                email.label = record.label
+                email.is_scheduling = record.is_scheduling or 0
+            emails.append(email)
+        return emails
+        
