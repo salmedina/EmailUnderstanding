@@ -90,7 +90,7 @@ for email in emails:
         test_arrays.append(model.docvecs[prefix_train_pos])
         test_labels.append(int(email.label))
         
-classifier = LogisticRegression()
+classifier = SVC()
 classifier.fit(numpy.array(train_arrays), numpy.array(train_labels))
 
 print("Overall score is %f." % classifier.score(numpy.array(test_arrays), numpy.array(test_labels)))

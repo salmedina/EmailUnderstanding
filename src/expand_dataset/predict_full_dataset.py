@@ -16,13 +16,13 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 
-from EmailContentCleaner import clean
-from EnronDB import Email
-import EnronDB
+from DBWrapper import EnronDB, Email
 import multiprocessing as mp
 
-db = EnronDB.EnronDB()
+
+db = EnronDB("email_prediction")
 db.init('holbox.lti.cs.cmu.edu', 'inmind', 'yahoo', 'enron_experiment')
+db.create_table()
 
 # create classifier
 print("Training...")
@@ -55,7 +55,6 @@ def clean(body):
         else:
             new_body += " " + cleaned_line
     return new_body
-
 
 def regexp_pos(s, pattern):
     '''Returns -1 if pattern was not found, otherwise it returns the position of the regex'''
@@ -224,7 +223,6 @@ def process_email(msg):
     # CONFIDENTIALITY NOTICE paragraphs from the company
     filt_5_body = remove_confidentiality_notice(filt_4_body)
     # EXTRAS any other eleemnt that could not be removed 
-    # TODO: improve this through analysis
     final_body = remove_misc(filt_5_body)
 
     # Replace more than two new lines into two newlines
@@ -241,6 +239,7 @@ def process_email(msg):
 
 def import_and_clean_email_in_folder(mail_dir):
     start = datetime.datetime.now()
+    processed_emails = []
     processed_count = 0
     # Traverse through all directories recursively
     for dirpath, _, filenames in os.walk(mail_dir):
@@ -261,20 +260,24 @@ def import_and_clean_email_in_folder(mail_dir):
                     # TODO use the actual raw_body 
                     e.raw_body = raw_email.get_payload()
                     # Process the email body
-                    e.body = process_email(clean(e.raw_body))
-                    e.all_lines = concat_paragraph_lines(e.body)
+                    e.cleaned_body = process_email(clean(e.raw_body))
+                    e.all_lines = concat_paragraph_lines(e.cleaned_body)
                     e.path = filepath
                     # To lower case and remove unwanted chars 
-                    e.one_line = ''.join(ch for ch in e.body.lower().translate(None, '\n\t\r') if ch not in exclude_set)
+                    e.one_line = ''.join(ch for ch in e.cleaned_body.lower().translate(None, '\n\t\r') if ch not in exclude_set)
                     e.prediction = gs_clf.predict([e.subject + ' ' + e.one_line])[0]
+                    e.probability = gs_clf.predict_proba([e.subject + ' ' + e.one_line])[0][1]
                     # Store in DB
-                db.insert_brushed_email_more(e)
+                # insert later
+                processed_emails.append(e)
+#                 db.insert_email(e)
                 processed_count += 1
             except:
                 print("Error processing %s." % filename)
     end = datetime.datetime.now()
     
     print("%i emails processed in %ss in %s." % (processed_count, (end - start).seconds, mail_dir))
+    return processed_emails
 
 def mp_process_iterable(func, iterable):
     '''
@@ -291,9 +294,21 @@ def mp_process_iterable(func, iterable):
     return res
     
 if __name__ == '__main__':
-    root_dir = "/Volumes/My Passport/data/maildir/"
+    root_dir = "../maildir/"
+    if not root_dir.endswith('/'):
+        print("root_dir should end with '/', otherwise it won't work.")
+        exit(1)
     all_dirs = os.listdir(root_dir)
-    all_dirs.remove(".DS_Store")
+    if ".DS_Store" in all_dirs:
+        all_dirs.remove(".DS_Store")
     folders = [(root_dir + d) for d in all_dirs]
-    mp_process_iterable(import_and_clean_email_in_folder, folders)
-
+    all_emails = mp_process_iterable(import_and_clean_email_in_folder, folders)
+    count = 0
+    print("Processing completed! Inserting...")
+    for sublist in all_emails:
+        for em in sublist:
+            db.insert_email(em)
+            count += 1
+        print("%i emails are inserted successfully!" % len(sublist))
+    print("Totally %i emails are inserted successfully from %i folders!" % (count, len(all_emails)))
+#     import_and_clean_email_in_folder("../maildir/allen-p/discussion_threads/")
