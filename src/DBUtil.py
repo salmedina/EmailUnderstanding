@@ -29,6 +29,7 @@ def load_init_file(init_filename):
     return config
 
 def initDB():
+<<<<<<< HEAD
     # Load config file
     cfg = load_init_file('emailimporter.ini')
     
@@ -40,3 +41,8 @@ def initDB():
                   cfg.get('Database', 'name'),):
         exit(0)
     return enron_db
+=======
+    db = EnronDB.EnronDB()
+    db.init('holbox.lti.cs.cmu.edu', 'inmind', 'yahoo', 'enron_experiment')
+    return db
+>>>>>>> c88ecc3c0576479adde88a9373c06e9a1379094f
