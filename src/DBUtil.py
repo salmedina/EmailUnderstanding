@@ -1,8 +1,3 @@
-'''
-Created on Jun 4, 2016
-
-@author: zhongzhu
-'''
 import ConfigParser
 import os
 
